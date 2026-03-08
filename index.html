@@ -22,7 +22,7 @@
             <nav>
                 <ul>
                     <li><a href="#lig">LIG Engine</a></li>
-                    <li><a href="#ecosistema">Ecosistema I+D</a></li>
+                    <li><a href="#ecosistema">Ecosistema I+D Materials</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,8 +51,7 @@
                 <span class="tech-badge">I+D</span>
             </header>
             <div class="project-content">
-                <p>Análisis y optimización de parámetros de síntesis para supercapacitores de grafeno inducido por láser
-                    en sustratos flexibles.</p>
+                <p>Optimización estocástica de parámetros de síntesis (Potencia, Velocidad, DPI) para el desarrollo de supercapacitores de grafeno inducido por láser (LIG) en sustratos poliméricos. Maximización de capacitancia específica mediante modelado de superficies de respuesta.</p>
                 <div class="project-gallery">
                     <figure class="gallery-item">
                         <img src="assets/projects/lig/intento-7/optimization_results.png"
@@ -90,8 +89,7 @@
                 <span class="tech-badge">Antigravity Architecture</span>
             </header>
             <div class="project-content">
-                <p>Cálculo planimétrico computarizado de tamaño de grano (ASTM E112) y fracción volumétrica de fases
-                    estocásticas (ASTM E562).</p>
+                <p>Digitalización y cuantificación automatizada de parámetros metalúrgicos. Clasificación de fases y planimetría de tamaño de grano (ASTM E112) mediante arquitecturas de segmentación profunda.</p>
                 <div class="tech-details">
                     <p><strong>Motor Matemático:</strong> Integración de procesamiento óptico vectorial (Gaussian Blur
                         3x3, CLAHE) con inferencia <code>Float16</code> vía <code>MobileSAM</code>. El algoritmo aplica
@@ -156,7 +154,7 @@
                         <img src="assets/projects/agnp/convergence_plots.png" alt="Gráficas de convergencia GA"
                             loading="lazy">
                         <figcaption class="gallery-caption">> Procesamiento GANN. Convergencia del Algoritmo Genético
-                            para optimización multivariada.</figcaption>
+                            para optimización multivariada. Minimización de funciones costeadas por MAE y RMSE para control de dispersión nanométrica.</figcaption>
                     </figure>
                     <figure class="gallery-item">
                         <img src="assets/projects/agnp/results_dashboard.png" alt="Dashboard de resultados AgNP"
@@ -177,8 +175,7 @@
                 <span class="tech-badge">RAG Híbrido</span>
             </header>
             <div class="project-content">
-                <p>Suite técnica para la evaluación escalable de factores de riesgo psicosocial en la industria pesada y
-                    procesos de forja (NOM-035).</p>
+                <p>Monitor transaccional para la evaluación estricta de factores de riesgo psicosocial en entornos de manufactura pesada y forja, bajo cumplimiento normativo STPS.</p>
                 <div class="tech-details">
                     <p><strong>Arquitectura Pipeline:</strong> Emplea un análisis de sentimiento base tipo Transformer
                         (BETO) acoplado a un motor RAG asíncrono con Ollama (Phi3.5). Opera sobre una topología SQLite
@@ -207,96 +204,6 @@
             </div>
         </section>
 
-        <!-- 4. Quant Refinery -->
-        <section class="project-card ecosystem-card card-ai">
-            <header class="project-header">
-                <h3>[05] 🏭 The Quant Refinery v4.1</h3>
-                <span class="tech-badge tag-ds">XGBoost Algorithmic</span>
-                <span class="tech-badge tag-ds">Econometría</span>
-                <span class="tech-badge">Series Temporales</span>
-            </header>
-            <div class="project-content">
-                <p>Sistema dinámico de análisis y radar multivariado para modelado predictivo del mercado de valores.
-                </p>
-                <div class="tech-details">
-                    <p><strong>Modelo de Inferencia:</strong> Controlador heurístico supervisado tipo PID Inteligente
-                        alimentado por un Gradient Boosting Tree (XGBoost). Implementa cálculo asíncrono robusto de
-                        tensores TA (RSI, Bollinger, MACD) y mapeo cruzado de correlaciones vía Plotly, estructurado
-                        bajo un "Unified View" unistate.</p>
-                </div>
-                <div class="project-gallery">
-                    <figure class="gallery-item">
-                        <img src="assets/projects/quant_refinery/initial_dashboard.png"
-                            alt="Dashboard Inicial Quant Refinery" loading="lazy">
-                        <figcaption class="gallery-caption">> Dashboard Base. Estado inicial del radar multivariado e
-                            indicadores de mercado.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/quant_refinery/technical_analysis.png"
-                            alt="Análisis Técnico Velas Bollinger" loading="lazy">
-                        <figcaption class="gallery-caption">> Pipeline Técnico. Visualización de velas y bandas de
-                            Bollinger bajo inferencia unistate.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/quant_refinery/xgboost_diagnostics.png"
-                            alt="Diagnósticos XGBoost Feature Importance" loading="lazy">
-                        <figcaption class="gallery-caption">> Motor Predictivo. Diagnóstico de importancia de variables
-                            y métricas de error del modelo XGBoost.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/quant_refinery/global_context.png"
-                            alt="Contexto Global y Correlaciones" loading="lazy">
-                        <figcaption class="gallery-caption">> Radar Multivariado. Mapeo de correlaciones cruzadas y
-                            rendimiento relativo de activos.</figcaption>
-                    </figure>
-                </div>
-            </div>
-        </section>
-
-        <!-- 5. Monitor Vital -->
-        <section class="project-card ecosystem-card card-ai">
-            <header class="project-header">
-                <h3>[06] Monitor Vital: Simulador Clínico Educativo</h3>
-                <span class="tech-badge tag-ds">PyWebView / Electron</span>
-                <span class="tech-badge tag-ds">JavaScript Engine</span>
-                <span class="tech-badge">Gammificación Médica</span>
-            </header>
-            <div class="project-content">
-                <p>Motor de simulación offline para entrenamiento en anatomía clínica y triage, con renderizado
-                    paramétrico de signos vitales.</p>
-                <div class="tech-details">
-                    <p><strong>Arquitectura de Simulación:</strong> Sistema empaquetado (Node.js/Python) que sintetiza
-                        trazados ECG realistas (patrón P-QRS-T) y feedback sonoro procedural vía
-                        <code>Web Audio API</code>. Implementa un bucle de eventos reactivo para la evaluación estricta
-                        de competencias médicas en escenarios aislados.
-                    </p>
-                </div>
-                <div class="project-gallery">
-                    <figure class="gallery-item">
-                        <img src="assets/projects/anatomia_clinica/hero.webp" alt="Hero Animation" loading="lazy">
-                        <figcaption class="gallery-caption">> Simulación de bioseñales. Bucle reactivo de interfaz y
-                            renderizado ECG.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/anatomia_clinica/dashboard.png" alt="Dashboard Principal"
-                            loading="lazy">
-                        <figcaption class="gallery-caption">> Dashboard Principal. Interfaz de inicialización para el
-                            entorno de simulación educativa.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/anatomia_clinica/logica.png" alt="Lógica y Procesamiento clínico"
-                            loading="lazy">
-                        <figcaption class="gallery-caption">> Evaluador Lógico. Renderizado paramétrico ECG y evaluación
-                            estricta de opciones médicas.</figcaption>
-                    </figure>
-                    <figure class="gallery-item">
-                        <img src="assets/projects/anatomia_clinica/resultados.png" alt="Feedback y Resultados"
-                            loading="lazy">
-                        <figcaption class="gallery-caption">> Resultados Clínicos. Síntesis procedural de respuestas y
-                            retroalimentación reactiva del paciente.</figcaption>
-                    </figure>
-                </div>
-            </div>
         </section>
     </main>
 
