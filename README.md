@@ -1,37 +1,40 @@
-# adaga.tech - Technical Portfolio
+# José Adrián García Garavito — Portafolio
 
-Portfolio web de una sola pagina enfocado en AI Systems, Computer Vision, NLP aplicado a NOM-035 y automatizacion tecnica.
+Hola — soy José Adrián, estudiante de Ingeniería en Materiales (6to semestre). Me apasiona aplicar la ciencia de materiales junto con herramientas de programación y machine learning para resolver problemas reales. Este repositorio contiene mi portafolio personal: proyectos, evidencias y el sitio estático que uso para presentarlos.
 
-## Estado actual
+## Qué hago (en primera persona)
 
-- Dominio activo esperado: `adaga.tech`.
-- UI principal: `index.html` (Tailwind CDN + estilos embebidos).
-- Navegacion SPA con anclas internas y `scroll-behavior: smooth`.
-- Layout optimizado para desktop y mobile.
+- Desarrollo pipelines y prototipos en Python para análisis de datos y visión por computador.
+- Trabajo con modelos de Machine Learning (PyTorch) y soluciones de despliegue ligero (ONNX, Docker).
+- Me interesa la caracterización de materiales mediante imagen (SEM) y la automatización de procesos técnicos (OCR, RAG para NLP).
 
-## Estructura del repositorio
+## Habilidades principales
 
-- `index.html`: Sitio productivo publicado en GitHub Pages.
-- `assets/projects/`: Evidencias visuales y CV PDF usado por la UI.
-- `CNAME`: Dominio personalizado (`adaga.tech`).
-- `archive/legacy/`: Archivos y versiones previas movidas fuera de produccion.
+- Lenguajes: Python, SQL, JavaScript (básico)
+- Machine Learning / CV: PyTorch, OpenCV, ONNX, MobileSAM
+- Data & Ops: pandas, Docker, Git, Streamlit, n8n
+- NLP: embeddings (BETO), RAG (retrieval-augmented generation)
+- Otras: análisis experimental de materiales, interpretación de micrografías SEM
 
-## Historial de implementacion
+## Proyectos destacados
 
-Se registro un resumen de cambios en:
+- Automated OCR Compliance Pipeline — pipeline de OCR para Mill Test Certificates (automatiza verificación de documentación metalúrgica).
+- Computer Vision Segmentation System — segmentación de microestructuras (ASTM) para análisis automatizado.
+- NLP Compliance Automation — sistema híbrido RAG + embeddings para evaluación de riesgo psicosocial (NOM-035).
 
-- `docs/IMPLEMENTATION_LOG.md`
+Todos los proyectos tienen referencias y artefactos en el sitio (`index.html`) y en `assets/projects/`.
 
-Incluye ajustes de contenido real, limpieza de placeholders, mejoras mobile, y organizacion del workspace.
+## Qué busco
 
-## Mantenimiento rapido
+Estoy buscando prácticas, pasantías o posiciones junior donde pueda aportar con mis habilidades en datos, visión por computador y automatización, y al mismo tiempo aprender en un entorno profesional. Si eres reclutador o tienes una oportunidad, me interesa conversar.
 
-1. Editar contenido visual y copy en `index.html`.
-2. Agregar/reemplazar assets en `assets/projects/`.
-3. Verificar rutas relativas de imagenes y PDF.
-4. Hacer commit y push a `main` para desplegar.
+## Contacto
 
-## Preview local
+- Email: adrian.garcia.garavito@gmail.com
+- GitHub: https://github.com/AdagaGG
+- CV (descarga desde el sitio): `assets/projects/Jose_Adrian_Garcia_Garavito_CV.pdf`
+
+## Ver el sitio localmente
 
 En Windows PowerShell:
 
@@ -39,13 +42,10 @@ En Windows PowerShell:
 py -m http.server 5500
 ```
 
-Abrir:
+Abrir en el navegador:
 
-- `http://127.0.0.1:5500/index.html`
+- http://127.0.0.1:5500/index.html
 
-## GitHub Pages y dominio
+## Nota personal
 
-- Branch de despliegue: `main`.
-- Carpeta de despliegue: `/ (root)`.
-- Custom domain en Pages: `adaga.tech`.
-- Mantener `CNAME` versionado en el repositorio.
+Sí, lo escribí yo (estudiante de 6to semestre). Sigo aprendiendo y construyendo cosas prácticas — si te interesa mi perfil, escríbeme. (lol)
